@@ -1,6 +1,6 @@
 # Mini monitor
 
-This is a mini monitor tool for monitor custom metric from container, and should be start inside container when spawned. It will get custom metric for alarm  via pushbullet and send data to influxdb for graphing.
+This is mini monitor tool for monitor custom metric from container, and should be start inside container when spawned. It will get custom metric for alarm  via pushbullet and send data to influxdb for graphing.
 We can write your own module to get custom metric from container, and this tool will help us monitor base on pre-define metric threshold, and push data for graphing.
 
 - **Disadvantage**: working locally, container name is still not flexible.
